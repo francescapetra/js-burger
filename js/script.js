@@ -17,14 +17,14 @@ var somma = 0;
 calculator.addEventListener("click",
   function(){
     somma = 50;
-    aggiunta=0;
+    aggiunta = 0;
     if (name_hamb.value != "" ) {
     }else {
       console.log(alert("Inserisci il nome del panino"));
     }
     for (var i = 0; i < ingredients.length; i++) {
       if (ingredients[i].checked) {
-        aggiunta += parseInt(ingredients[i].value);
+        aggiunta = parseInt(ingredients[i].value);
         somma = somma + aggiunta;
         }
       }
