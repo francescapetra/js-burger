@@ -2,5 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: pink;
+  /* background-color: pink; */
+}
+body{
+  background-color: #fff5e2;
+}
+.container_all{
+  width: 50%;;
+  height: 1000px;
+  background-color: #ffffff;
+}
+.header_top{
+  width: 100%;
+  background-color: #fdbb40;
+  padding: 70px 0 30px 20px;
 }
