@@ -15,13 +15,13 @@
       </header>
       <!-- main -->
       <main class="main_content">
-        <input type="text" name="my_name" placeholder="Nome Hamburgher">
+        <input id="name_hamburgher" type="text" placeholder="Nome Hamburgher" value="">
         <h2>Ingredients</h2>
         <div class="burger_composition">
           <!-- lista ingredisneti -->
           <div class="first_list">
-            <ul class="ingredients_list">
-              <li class="product_cheese">
+            <ul id="ingredients_list">
+              <li class="product cheese">
                 <label for="cheese"> Cheese
                   <input id="cheese" type="checkbox" name="prodotto" value="3"> Add
                 </label>
@@ -39,7 +39,7 @@
             </ul>
           </div>
           <!-- seconda -->
-          <div class="second_list">
+          <div id="second_list">
             <ul class="ingredients_list">
               <li class="product_tomato">
                 <label for="tomato"> Tomato
@@ -63,14 +63,14 @@
               <input id="discount_coupon" type="text" placeholder="1234567">
           </div>
           <div class="button_coupon">
-            <button class="calc" type="button" name="button">Calculate</button>
+            <button id="calculate" type="button" name="button">Calculate</button>
           </div>
         </div>
       </main>
       <!-- footer -->
       <footer>
         <h3>Your Price</h3>
-        <p>$ 50</p>
+        <p id="big_total"> 50 $</p>
       </footer>
     </div>
 
