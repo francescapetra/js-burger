@@ -7,6 +7,7 @@
 body{
   background-color: #fff5e2;
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 .white_color{
   color: #ffffff;
@@ -15,17 +16,28 @@ body{
   width: 50%;
   background-color: #ffffff;
 }
+img.big_burgher{
+  width: 15%;
+  position: absolute;
+  top: -15px;
+  left: 39%;
+}
+.img_label{
+  width: 15%;
+  vertical-align: middle;
+
+}
 .header_top{
   width: 100%;
   background-color: #fdbb40;
-  padding: 70px 0 30px 30px;
+  padding: 65px 0 30px 30px;
 }
 .main_content{
   padding: 50px 0 30px 30px;
 }
 h1{
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 800;
+  font-size: 34px;
 }
 #name_hamburgher{
   border: none;
@@ -34,7 +46,7 @@ h1{
 h2{
   padding: 30px 0;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 22px;
 }
 div.first_list,
 div.second_list{
@@ -47,6 +59,12 @@ ul.ingredients_list li{
 label{
   font-size: 12px;
   font-weight: 500;
+}
+input{
+  vertical-align: middle;
+}
+li.product{
+  margin-bottom: 15px;
 }
 #discount_coupon{
   border: none;
