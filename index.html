@@ -9,11 +9,69 @@
   </head>
   <body>
     <div class="container_all">
+      <!-- header -->
       <header class="header_top">
       <h1>Create You Burger</h1>
       </header>
-      <main ></main>
-      <footer></footer>
+      <!-- main -->
+      <main class="main_content">
+        <input type="text" name="my_name" value="Mio Nome">
+        <h2>Ingredients</h2>
+        <div class="burger_composition">
+          <!-- lista ingredisneti -->
+          <div class="first_list">
+            <ul class="ingredients_list">
+              <li class="product_cheese">
+                <label for="cheese"> Cheese
+                  <input id="cheese" type="checkbox" name="prodotto" value="3"> Add
+                </label>
+              </li>
+              <li class="product_egg">
+                <label for="egg"> Egg
+                  <input id="egg" type="checkbox" name="prodotto" value="2"> Add
+                </label>
+              </li>
+              <li class="product_mustard">
+                <label for="mustard"> Mustard
+                  <input id="mustard" type="checkbox" name="prodotto" value="1"> Add
+                </label>
+              </li>
+            </ul>
+          </div>
+          <!-- seconda -->
+          <div class="second_list">
+            <ul class="ingredients_list">
+              <li class="product_tomato">
+                <label for="tomato"> Tomato
+                  <input id="tomato" type="checkbox" name="prodotto" value="2"> Add
+                </label>
+              </li>
+              <li class="product_lettuce">
+                <label for="lettuce"> Lettuce
+                  <input id="lettuce" type="checkbox" name="prodotto" value="2"> Add
+                </label>
+              </li>
+              <li class="product_ketchup">
+                <label for="ketchup"> Ketchup
+                  <input id="ketchup" type="checkbox" name="prodotto" value="1"> Add
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="discount">
+            <label for="discount_coupon">Discount Coupon</label>
+              <input id="discount_coupon" type="text"  value="123">
+          </div>
+          <div class="button_coupon">
+            <button class="calc" type="button" name="button">Calculate</button>
+          </div>
+        </div>
+      </main>
+      <!-- footer -->
+      <footer>
+        <h3>Your Price</h3>
+        <p>$ 50</p>
+      </footer>
     </div>
 
 

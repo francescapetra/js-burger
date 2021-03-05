@@ -8,12 +8,33 @@ body{
   background-color: #fff5e2;
 }
 .container_all{
-  width: 50%;;
-  height: 1000px;
+  width: 50%;
   background-color: #ffffff;
 }
 .header_top{
   width: 100%;
   background-color: #fdbb40;
-  padding: 70px 0 30px 20px;
+  padding: 70px 0 30px 30px;
+}
+.main_content{
+  padding: 50px 0 30px 30px;
+}
+h2{
+  padding: 30px 0;
+}
+ul.ingredients_list li{
+  list-style: none;
+}
+.discount{
+  padding: 50px 0 30px 0px;
+}
+.button_coupon{
+  text-align: center;
+  padding-bottom: 70px;
+}
+footer{
+  background-color: #d33359;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
 }
