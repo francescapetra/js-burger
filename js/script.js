@@ -33,6 +33,6 @@ calculator.addEventListener("click",
       }
 
 
-      document.getElementById('big_total').innerHTML =  somma + "$";
+      document.getElementById('big_total').innerHTML =  somma.toFixed(2) + " $";
     }
 );
