@@ -104,3 +104,7 @@ footer{
   font-size: 24px;
   font-weight: bold;
 }
+textarea:focus, input:focus,
+button:focus{
+    outline: none;
+}
